@@ -13,6 +13,10 @@
 		CD293FA82494B2B900E5B126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD293FA72494B2B900E5B126 /* Assets.xcassets */; };
 		CD293FAB2494B2B900E5B126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD293FAA2494B2B900E5B126 /* Preview Assets.xcassets */; };
 		CD293FAE2494B2B900E5B126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD293FAC2494B2B900E5B126 /* LaunchScreen.storyboard */; };
+		CD293FB62494B44800E5B126 /* romanConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB52494B44800E5B126 /* romanConversion.swift */; };
+		CD293FB82494B46400E5B126 /* constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB72494B46400E5B126 /* constantes.swift */; };
+		CD293FBA2494B46F00E5B126 /* calendrierRevolutionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB92494B46F00E5B126 /* calendrierRevolutionnaire.swift */; };
+		CD293FBC2494BB1200E5B126 /* testFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD293FBB2494BB1200E5B126 /* testFile.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CD293FAA2494B2B900E5B126 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD293FAD2494B2B900E5B126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD293FAF2494B2B900E5B126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD293FB52494B44800E5B126 /* romanConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = romanConversion.swift; sourceTree = "<group>"; };
+		CD293FB72494B46400E5B126 /* constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constantes.swift; sourceTree = "<group>"; };
+		CD293FB92494B46F00E5B126 /* calendrierRevolutionnaire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendrierRevolutionnaire.swift; sourceTree = "<group>"; };
+		CD293FBB2494BB1200E5B126 /* testFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testFile.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 		CD293F952494B2B700E5B126 = {
 			isa = PBXGroup;
 			children = (
+				CD293FB72494B46400E5B126 /* constantes.swift */,
+				CD293FB52494B44800E5B126 /* romanConversion.swift */,
+				CD293FB92494B46F00E5B126 /* calendrierRevolutionnaire.swift */,
 				CD293FA02494B2B700E5B126 /* Messidor */,
 				CD293F9F2494B2B700E5B126 /* Products */,
 			);
@@ -62,6 +73,7 @@
 				CD293FA72494B2B900E5B126 /* Assets.xcassets */,
 				CD293FAC2494B2B900E5B126 /* LaunchScreen.storyboard */,
 				CD293FAF2494B2B900E5B126 /* Info.plist */,
+				CD293FBB2494BB1200E5B126 /* testFile.txt */,
 				CD293FA92494B2B900E5B126 /* Preview Content */,
 			);
 			path = Messidor;
@@ -135,6 +147,7 @@
 			files = (
 				CD293FAE2494B2B900E5B126 /* LaunchScreen.storyboard in Resources */,
 				CD293FAB2494B2B900E5B126 /* Preview Assets.xcassets in Resources */,
+				CD293FBC2494BB1200E5B126 /* testFile.txt in Resources */,
 				CD293FA82494B2B900E5B126 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD293FA22494B2B700E5B126 /* AppDelegate.swift in Sources */,
+				CD293FBA2494B46F00E5B126 /* calendrierRevolutionnaire.swift in Sources */,
+				CD293FB82494B46400E5B126 /* constantes.swift in Sources */,
 				CD293FA42494B2B700E5B126 /* SceneDelegate.swift in Sources */,
 				CD293FA62494B2B700E5B126 /* ContentView.swift in Sources */,
+				CD293FB62494B44800E5B126 /* romanConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
