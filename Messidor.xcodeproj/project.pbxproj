@@ -16,8 +16,42 @@
 		CD293FB62494B44800E5B126 /* romanConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB52494B44800E5B126 /* romanConversion.swift */; };
 		CD293FB82494B46400E5B126 /* constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB72494B46400E5B126 /* constantes.swift */; };
 		CD293FBA2494B46F00E5B126 /* calendrierRevolutionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB92494B46F00E5B126 /* calendrierRevolutionnaire.swift */; };
-		CD293FBC2494BB1200E5B126 /* testFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD293FBB2494BB1200E5B126 /* testFile.txt */; };
+		CD293FC22494CEC600E5B126 /* testFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD293FC12494CEC600E5B126 /* testFile.txt */; };
+		CD4DCDA925053152008A440E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4DCDA825053152008A440E /* WidgetKit.framework */; };
+		CD4DCDAB25053152008A440E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4DCDAA25053152008A440E /* SwiftUI.framework */; };
+		CD4DCDAE25053152008A440E /* MessidorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4DCDAD25053152008A440E /* MessidorWidget.swift */; };
+		CD4DCDB125053155008A440E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4DCDB025053155008A440E /* Assets.xcassets */; };
+		CD4DCDB325053155008A440E /* MessidorWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CD4DCDAF25053152008A440E /* MessidorWidget.intentdefinition */; };
+		CD4DCDB425053155008A440E /* MessidorWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CD4DCDAF25053152008A440E /* MessidorWidget.intentdefinition */; };
+		CD4DCDB725053155008A440E /* MessidorWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD4DCDA625053152008A440E /* MessidorWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD4DCDBC25053B06008A440E /* constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB72494B46400E5B126 /* constantes.swift */; };
+		CD4DCDBD25053B0A008A440E /* romanConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB52494B44800E5B126 /* romanConversion.swift */; };
+		CD4DCDBE25053B10008A440E /* calendrierRevolutionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD293FB92494B46F00E5B126 /* calendrierRevolutionnaire.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4DCDB525053155008A440E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD293F962494B2B700E5B126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4DCDA525053152008A440E;
+			remoteInfo = MessidorWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD4DCDBB25053155008A440E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD4DCDB725053155008A440E /* MessidorWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CD293F9E2494B2B700E5B126 /* Messidor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messidor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,7 +65,14 @@
 		CD293FB52494B44800E5B126 /* romanConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = romanConversion.swift; sourceTree = "<group>"; };
 		CD293FB72494B46400E5B126 /* constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constantes.swift; sourceTree = "<group>"; };
 		CD293FB92494B46F00E5B126 /* calendrierRevolutionnaire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendrierRevolutionnaire.swift; sourceTree = "<group>"; };
-		CD293FBB2494BB1200E5B126 /* testFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testFile.txt; sourceTree = "<group>"; };
+		CD293FC12494CEC600E5B126 /* testFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testFile.txt; sourceTree = "<group>"; };
+		CD4DCDA625053152008A440E /* MessidorWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessidorWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4DCDA825053152008A440E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CD4DCDAA25053152008A440E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CD4DCDAD25053152008A440E /* MessidorWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessidorWidget.swift; sourceTree = "<group>"; };
+		CD4DCDAF25053152008A440E /* MessidorWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MessidorWidget.intentdefinition; sourceTree = "<group>"; };
+		CD4DCDB025053155008A440E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4DCDB225053155008A440E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4DCDA325053152008A440E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4DCDAB25053152008A440E /* SwiftUI.framework in Frameworks */,
+				CD4DCDA925053152008A440E /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +102,8 @@
 				CD293FB52494B44800E5B126 /* romanConversion.swift */,
 				CD293FB92494B46F00E5B126 /* calendrierRevolutionnaire.swift */,
 				CD293FA02494B2B700E5B126 /* Messidor */,
+				CD4DCDAC25053152008A440E /* MessidorWidget */,
+				CD4DCDA725053152008A440E /* Frameworks */,
 				CD293F9F2494B2B700E5B126 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				CD293F9E2494B2B700E5B126 /* Messidor.app */,
+				CD4DCDA625053152008A440E /* MessidorWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,13 +120,13 @@
 		CD293FA02494B2B700E5B126 /* Messidor */ = {
 			isa = PBXGroup;
 			children = (
+				CD293FC12494CEC600E5B126 /* testFile.txt */,
 				CD293FA12494B2B700E5B126 /* AppDelegate.swift */,
 				CD293FA32494B2B700E5B126 /* SceneDelegate.swift */,
 				CD293FA52494B2B700E5B126 /* ContentView.swift */,
 				CD293FA72494B2B900E5B126 /* Assets.xcassets */,
 				CD293FAC2494B2B900E5B126 /* LaunchScreen.storyboard */,
 				CD293FAF2494B2B900E5B126 /* Info.plist */,
-				CD293FBB2494BB1200E5B126 /* testFile.txt */,
 				CD293FA92494B2B900E5B126 /* Preview Content */,
 			);
 			path = Messidor;
@@ -87,6 +140,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CD4DCDA725053152008A440E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DCDA825053152008A440E /* WidgetKit.framework */,
+				CD4DCDAA25053152008A440E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4DCDAC25053152008A440E /* MessidorWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DCDAD25053152008A440E /* MessidorWidget.swift */,
+				CD4DCDAF25053152008A440E /* MessidorWidget.intentdefinition */,
+				CD4DCDB025053155008A440E /* Assets.xcassets */,
+				CD4DCDB225053155008A440E /* Info.plist */,
+			);
+			path = MessidorWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,15 +170,34 @@
 				CD293F9A2494B2B700E5B126 /* Sources */,
 				CD293F9B2494B2B700E5B126 /* Frameworks */,
 				CD293F9C2494B2B700E5B126 /* Resources */,
+				CD4DCDBB25053155008A440E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CD4DCDB625053155008A440E /* PBXTargetDependency */,
 			);
 			name = Messidor;
 			productName = Messidor;
 			productReference = CD293F9E2494B2B700E5B126 /* Messidor.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CD4DCDA525053152008A440E /* MessidorWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4DCDB825053155008A440E /* Build configuration list for PBXNativeTarget "MessidorWidgetExtension" */;
+			buildPhases = (
+				CD4DCDA225053152008A440E /* Sources */,
+				CD4DCDA325053152008A440E /* Frameworks */,
+				CD4DCDA425053152008A440E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessidorWidgetExtension;
+			productName = MessidorWidgetExtension;
+			productReference = CD4DCDA625053152008A440E /* MessidorWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -113,12 +205,15 @@
 		CD293F962494B2B700E5B126 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = stgpcs;
 				TargetAttributes = {
 					CD293F9D2494B2B700E5B126 = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					CD4DCDA525053152008A440E = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
@@ -136,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				CD293F9D2494B2B700E5B126 /* Messidor */,
+				CD4DCDA525053152008A440E /* MessidorWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -147,8 +243,16 @@
 			files = (
 				CD293FAE2494B2B900E5B126 /* LaunchScreen.storyboard in Resources */,
 				CD293FAB2494B2B900E5B126 /* Preview Assets.xcassets in Resources */,
-				CD293FBC2494BB1200E5B126 /* testFile.txt in Resources */,
+				CD293FC22494CEC600E5B126 /* testFile.txt in Resources */,
 				CD293FA82494B2B900E5B126 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4DCDA425053152008A440E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4DCDB125053155008A440E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,13 +266,34 @@
 				CD293FA22494B2B700E5B126 /* AppDelegate.swift in Sources */,
 				CD293FBA2494B46F00E5B126 /* calendrierRevolutionnaire.swift in Sources */,
 				CD293FB82494B46400E5B126 /* constantes.swift in Sources */,
+				CD4DCDB425053155008A440E /* MessidorWidget.intentdefinition in Sources */,
 				CD293FA42494B2B700E5B126 /* SceneDelegate.swift in Sources */,
 				CD293FA62494B2B700E5B126 /* ContentView.swift in Sources */,
 				CD293FB62494B44800E5B126 /* romanConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD4DCDA225053152008A440E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4DCDB325053155008A440E /* MessidorWidget.intentdefinition in Sources */,
+				CD4DCDBC25053B06008A440E /* constantes.swift in Sources */,
+				CD4DCDAE25053152008A440E /* MessidorWidget.swift in Sources */,
+				CD4DCDBE25053B10008A440E /* calendrierRevolutionnaire.swift in Sources */,
+				CD4DCDBD25053B0A008A440E /* romanConversion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4DCDB625053155008A440E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4DCDA525053152008A440E /* MessidorWidgetExtension */;
+			targetProxy = CD4DCDB525053155008A440E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CD293FAC2494B2B900E5B126 /* LaunchScreen.storyboard */ = {
@@ -208,6 +333,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -268,6 +394,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -299,6 +426,7 @@
 		CD293FB32494B2B900E5B126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Messidor/Preview Content\"";
@@ -312,13 +440,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Messidor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CD293FB42494B2B900E5B126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Messidor/Preview Content\"";
@@ -331,6 +460,50 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Messidor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CD4DCDB925053155008A440E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5BAAGBQWR;
+				INFOPLIST_FILE = MessidorWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Messidor.MessidorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4DCDBA25053155008A440E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5BAAGBQWR;
+				INFOPLIST_FILE = MessidorWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Messidor.MessidorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,6 +526,15 @@
 			buildConfigurations = (
 				CD293FB32494B2B900E5B126 /* Debug */,
 				CD293FB42494B2B900E5B126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4DCDB825053155008A440E /* Build configuration list for PBXNativeTarget "MessidorWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4DCDB925053155008A440E /* Debug */,
+				CD4DCDBA25053155008A440E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
